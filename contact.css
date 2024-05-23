@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #224f34;
+    font-size: 0.7rem;
+}
+
+.container {
+    width: 80%;
+    margin: 3rem auto;
+    padding: 0 10px;
+    /* Adjusted padding for responsiveness */
+}
+
+.container p,
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.cbox {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* Adjusted for responsiveness */
+}
+
+.cleft,
+.cright {
+    width: 100%;
+    /* Adjusted width for responsiveness */
+    padding: 20px;
+}
+
+.cright {
+    background-color: #c2efd4;
+}
+
+.cleft h3,
+.cright h3 {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #224f34;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /* Adjusted for responsiveness */
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.group {
+    width: 48%;
+    /* Adjusted width for responsiveness */
+}
+
+.group label {
+    margin-bottom: 0.2rem;
+    display: block;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #224f34;
+    padding: 0.3rem;
+    width: 5rem;
+    border: none;
+    outline: none;
+    border: 1px solid #224f34;
+    border-radius: 0.4rem;
+    color: white;
+    margin-top: 0.3rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: #224f34;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+tr td {
+    padding-top: 1rem;
+}
+
+tr td:first-child {
+    padding-right: 1rem;
+}

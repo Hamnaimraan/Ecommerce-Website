@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c2efd4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.blog-post {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #224f34;
+    /* border-top: 4px solid #224f34; */
+}
+
+.blog-post h2 {
+    margin-top: 0;
+    color: #224f34;
+}
+
+.blog-post p {
+    color: #224f34;
+}
